@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+ /* body{
+     background-image: url(backpic2.jpeg);
+       background-size: cover;
+       background: #bde7f4;
+        opacity: 0.7;
+       margin-top:120px } */
+.backpic {
+  background-color:rgba(189, 231, 244, 0.8); 
+  
+   position: ab;
+  margin-top: 150px;
+  margin-right: 55px;
+  background: #bde7f4;
+  opacity: 0.7;
+
+} 
+ .backpic img
+{
+width:1100px;
+background-size: cover;
+background-position: center;
+} 
+body::before {
+  display: block;
+  position: fixed;
+  background-color: rgba(240, 240, 240, 0.8);
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+
+}
+.display
+{
+    display:flex;
+    align-items: center;
+    width:30px;
+    height: 30px;
+ 
+}
+ul {
+  background-color: #0e738a;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(8, 8, 8);
+}
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+}
+li {
+  float: right;
+  margin: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #0e738a;
+  z-index: 2000;
+}
+li a {
+  display: block;
+  color: rgb(9, 8, 8);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#box {
+  position: absolute;
+  height:545px;
+  width:800px;
+  right:82px;
+  background: #bde7f4;
+  opacity: 0.6;
+}
+#textbox {
+  position: absolute;
+  width: 630px;
+  height: 350px;
+  left:5%;
+  top: 230px;
+  background: #bde7f4;
+  opacity: 0.8;
+  text-align: justify;
+  color: #050606;
+}
+
+#textbox h1
+{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  font-size: larger;
+  color: black;
+}

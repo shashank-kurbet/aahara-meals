@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.icon{
+  background-color:#f6f9fa;
+
+  color: black;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left:1px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon .photos .icon1 img
+{
+  margin-left:1px;
+  width: 30px;
+  height:30px;
+}
+.icon .Videos .icon1 img
+{
+  width: 30px;
+  height:30px;
+}
+.icon .document .icon1 img
+{
+  width: 30px;
+  height:30px;
+}
+.icon .Location .icon1 img
+{
+  width: 30px;
+  height:30px;
+}
+.icon1{
+
+  font-size:22px;
+  color: black;
+}
+.post  img{
+  position: absolute;
+
+ 
+
+
+}
+
+body{
+  background-color:#e3e1e1;
+  
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    z-index: 2000;
+}
+.display img
+{
+    
+    /* display:flex;
+    align-items: center;
+    color: grey; */
+    margin-left:30px;
+
+}
+a{
+color: #49c9ba;
+  display:flex;
+  justify-content: space-between;
+}
+button
+{
+  font-size: 15px;
+  color:#0E738A;
+}
+button{
+  border: 0;
+    border-radius: 50px;
+    width: 500px;
+    height: 50px;
+}
+
+#button-post
+{
+  margin-left: 120px;
+  margin-top: 15px;
+  font-size: 15px;
+  color:#0E738A;
+  border: 0;
+    border-radius: 50px;
+    width: 500px;
+    height: 50px;
+}
+ ul{
+  background-color: #BDE7F4;
+   margin: 0;
+  padding: 0; 
+   overflow: hidden; 
+  list-style-type: none;
+} 
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(230, 226, 226);
+}
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+li {
+  float: right;
+  margin: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #BDE7F4;
+}
+li a {
+  display: block;
+  color:rgb(14, 115, 138);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.request{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute; 
+  width: 400px;
+  height: 600px;
+  left:70%;
+  top: 110px;
+  background: #0E738A;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  border: 10px solid #ffffff;
+  /* box-shadow: 10px 10px 10px 10px #878585; */
+}
+
+.upost{
+  border:2px solid #d9d9d9;
+}
+
+.twopost
+{
+  border:2px solid #d9d9d9;
+}
+
+.RQB li{
+  margin-left: 20%;
+}
+.board_content
+{
+  margin-top: 10px;
+  list-style-type: square;
+  text-align: left;
+}
+.RQB{
+  background-color: #0E738A;
+  margin-right: 60px;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: square;
+  align-items: left;
+   display:inline-block;
+}
+
+
+.upost
+{
+ margin-top:110px;
+ margin-left:240px;
+  width:700px;
+  height:480px;
+  background-color: #f6f9fa;
+} 
+.upost .uimg 
+{
+  
+    border-radius: 50px;
+    width: 550px;
+    height: 60px;
+    margin-top:15px;
+    display: flex;
+    align-items: left;
+}
+.upost .pimg 
+{
+ margin-top:5px;
+ margin-left: 140px;
+}
+
+.upost .uimg img 
+{
+  position: absolute;
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 50px;
+ display:flex;
+ align-items: left;
+
+ 
+}
+.upost .secondpost img 
+{
+  width: 700px;
+  height:300px ;
+}
+
+.twopost
+{
+ margin-top:50px;
+ margin-left:240px;
+  width:700px;
+  height:480px;
+  background-color: #f6f9fa;
+} 
+.secondpost .twopost{
+  margin-top:50px;
+  margin-left:240px;
+   width:700px;
+   height:400px;
+   background-color: #f6f9fa;
+}
+
+
+.twopost .twoimg 
+{
+  
+    border-radius: 50px;
+    width: 550px;
+    height: 60px;
+    margin-top:15px;
+    display: flex;
+    align-items: left;
+}
+.twopost .twoimg img 
+{
+  position: absolute;
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 0px;
+ display:flex;
+ align-items: left;
+
+ 
+}
+.twopost .secondpost img 
+{
+  width: 700px;
+  height:300px ;
+}
+.twopost .twoimg 
+{
+ margin-top:5px;
+ margin-left: 60px
+}
+.twopost .twoimg p
+{
+  margin-left: 90px;
+}
+
+input{
+  border-radius: 15px;
+}
+
+.req-button 
+{
+  
+  border-radius: 0%;
+  width:120px;
+  height: 40px;
+  margin-left: 60px;
+  box-shadow: #97c8d3;
+}
+
+.req-button a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.likeshare
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:10px
+}
+
+.likeshare img
+{
+  width: 20px;
+  height:20px;
+}
